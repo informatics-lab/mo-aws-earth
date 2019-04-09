@@ -9,7 +9,6 @@ git:
 
 build:
   number: {{ GIT_DESCRIBE_NUMBER }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
   noarch: python
 
 requirements:
@@ -20,9 +19,9 @@ requirements:
     - python
     - scipy
     - iris
-    - iris_hypothetic
+    - iris_hypothetic >=0.1.4
     - intake
-    - intake_hypothetic
+    - intake_hypothetic >=0.1.2
 
 test:
   source_files:
