@@ -19,9 +19,9 @@ requirements:
     - python
     - scipy
     - iris
-    - iris_hypothetic >=v0.1.3
+    - iris_hypothetic >=0.1.4
     - intake
-    - intake_hypothetic >=v0.1.1
+    - intake_hypothetic >=0.1.2
 
 test:
   source_files:
