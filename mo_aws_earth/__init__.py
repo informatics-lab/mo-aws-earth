@@ -18,4 +18,4 @@ def generate_key(metadata):
 
 
 def generate_object_uri(metadata):
-    return f"/s3/aws-earth-{metadata['model']}/{generate_key(metadata)}"  # TODO: Make not Pangeo specific
+    return f"s3://aws-earth-{metadata['model']}/{generate_key(metadata)}"
