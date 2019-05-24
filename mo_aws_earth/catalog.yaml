@@ -1,0 +1,7 @@
+sources:
+  mo_aws_earth:
+    args:
+      path: https://s3.eu-west-2.amazonaws.com/aws-earth-mo-intake-catalogs/mo_aws_earth.yaml
+    description: 'Met Office AWS Earth Data'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
